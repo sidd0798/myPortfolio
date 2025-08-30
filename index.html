@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sidharth Tripathi - Full-Stack Developer portfolio showcasing React.js, Node.js, and modern web development skills." />
+    <title>Sidharth Tripathi | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2300bcd4'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='28' fill='white' font-family='Arial'%3EST%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Header / Navbar -->
+    <header class="site-header" aria-label="Primary">
+        <div class="container header-inner">
+            <a href="#home" class="logo" aria-label="Home">
+                <span class="logo-mark" aria-hidden="true">{ }</span>
+                <span class="logo-text">Sidharth</span>
+            </a>
+            <nav class="nav" aria-label="Primary navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                                         <li><a href="#about" class="nav-link">About</a></li>
+                     <li><a href="#skills" class="nav-link">Skills</a></li>
+                     <li><a href="#projects" class="nav-link">Projects</a></li>
+                     <li><a href="#contact" class="nav-link">Contact</a></li>
+                     <li><a href="#social-media" class="nav-link">Social Media</a></li>
+                     <li><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+                <span class="theme-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-label="Hero">
+        <div class="container grid hero-grid">
+            <div class="hero-content" data-animate>
+                <p class="eyebrow">👋 Hello, I'm</p>
+                <h1 class="hero-title">Sidharth Tripathi</h1>
+                <p class="hero-subtitle"><span class="typed" aria-live="polite"></span></p>
+                <p class="hero-tagline">Building modern, responsive, and scalable web applications that transform ideas into real-world solutions.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="https://github.com/sidd0798/imdb_clone/tree/main/src" target="_blank" rel="noreferrer noopener" aria-label="GitHub profile">GitHub</a>
+                    <a class="btn outline" href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn profile">LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-animate>
+                <img class="avatar" width="320" height="320" alt="Portrait of Sidharth Tripathi" src="css/mern-photo.jpg" />
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+        <!-- About Section -->
+        <section id="about" class="section" aria-label="About me">
+            <div class="container grid two-col">
+                <div class="about-media" data-animate>
+                    <img class="about-photo" width="480" height="360" alt="Portrait of Sidharth Tripathi" src="css/mern-photo.jpg" />
+                </div>
+                <div class="about-content" data-animate>
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        I'm a developer with hands-on experience in both frontend and backend. On the frontend, I work with React.js, JavaScript, Tailwind CSS, HTML, and CSS to create clean, user-friendly interfaces. On the backend, I use Node.js and Express.js to build fast and scalable applications. My focus is on delivering high-performance, responsive solutions that solve real business problems.
+                    </p>
+                    
+                    
+                    
+                    <ul class="achievements" role="list">
+                        <li><span class="badge">2+ yrs</span> Professional experience delivering web apps</li>
+                        <li><span class="badge">3 projects</span> Built across frontend and backend</li>
+                        <li><span class="badge">Open-source</span> Contributor to community projects</li>
+                    </ul>
+                    <div class="about-actions">
+                        <a class="btn primary" href="assets/resume.pdf" download aria-label="Download resume as PDF">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section alt" aria-label="Skills">
+            <div class="container">
+                <h2 class="section-title" data-animate>Skills</h2>
+                <div class="skills-grid" role="list">
+                    <article class="skill" data-level="90" data-animate>
+                        <h3>React.js</h3>
+                        <div class="progress" aria-label="Proficiency 90%" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span></span></div>
+                    </article>
+                    <article class="skill" data-level="88" data-animate>
+                        <h3>JavaScript (ES6+)</h3>
+                        <div class="progress" aria-label="Proficiency 88%" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88"><span></span></div>
+                    </article>
+                    <article class="skill" data-level="85" data-animate>
+                        <h3>Node.js & Express.js</h3>
+                        <div class="progress" aria-label="Proficiency 85%" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span></span></div>
+                    </article>
+                    <article class="skill" data-level="82" data-animate>
+                        <h3>HTML5 & CSS3</h3>
+                        <div class="progress" aria-label="Proficiency 82%" aria-valuemin="0" aria-valuemax="100" aria-valuenow="82"><span></span></div>
+                    </article>
+                    <article class="skill" data-level="80" data-animate>
+                        <h3>Tailwind CSS</h3>
+                        <div class="progress" aria-label="Proficiency 80%" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span></span></div>
+                    </article>
+                    <article class="skill" data-level="78" data-animate>
+                        <h3>RESTful APIs</h3>
+                        <div class="progress" aria-label="Proficiency 78%" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78"><span></span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section" aria-label="Projects">
+            <div class="container">
+                <h2 class="section-title" data-animate>Projects</h2>
+                <div class="projects-grid">
+                                         <!-- Project Card: IMDB Clone -->
+                     <article class="project-card" tabindex="0" data-animate>
+                         <div class="project-thumb">
+                             <div class="project-slideshow">
+                                 <img loading="lazy" width="560" height="360" alt="IMDB Clone - Movie Database Interface" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=560&h=360&fit=crop&crop=center" class="slide active" />
+                                 <img loading="lazy" width="560" height="360" alt="IMDB Clone - Movie Search Results" src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=560&h=360&fit=crop&crop=center" class="slide" />
+                                 <img loading="lazy" width="560" height="360" alt="IMDB Clone - Cinema Experience" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=560&h=360&fit=crop&crop=center&sat=-50" class="slide" />
+                                 <div class="slideshow-nav">
+                                     <button class="nav-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                                     <button class="nav-dot" data-slide="1" aria-label="Go to slide 2"></button>
+                                     <button class="nav-dot" data-slide="2" aria-label="Go to slide 3"></button>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="project-content">
+                             <h3>IMDB Clone</h3>
+                             <p>A movie database application built with React.js, featuring movie search, detailed information, ratings, and a responsive design similar to IMDB.</p>
+                             <p class="stack">Stack: React.js, JavaScript, HTML5, CSS3</p>
+                             <div class="project-actions">
+                                 <a class="btn small" href="#" data-project="alpha" aria-label="Open details for IMDB Clone">Details</a>
+                                 <a class="btn small outline" href="https://66efe417cfd22b747aabd4d7e.netlify.app/" target="_blank" rel="noreferrer noopener">Live Demo</a>
+                             </div>
+                         </div>
+                     </article>
+
+                    <article class="project-card" tabindex="0" data-animate>
+                        <div class="project-thumb">
+                            <img loading="lazy" width="560" height="360" alt="Task Management App sample" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='360' viewBox='0 0 560 360'%3E%3Crect width='560' height='360' rx='20' fill='%2300bcd4'/%3E%3Ctext x='50%25' y='52%25' dominant-baseline='middle' text-anchor='middle' font-size='24' font-family='Arial' fill='white'%3ETask Management App%3C/text%3E%3C/svg%3E" />
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>Real-time collaborative task management application with drag-and-drop functionality, user roles, and real-time updates using WebSockets.</p>
+                            <p class="stack">Stack: React.js, Node.js, Socket.io, Tailwind CSS</p>
+                            <div class="project-actions">
+                                <a class="btn small" href="#" data-project="beta" aria-label="Open details for Task Management App">Details</a>
+                                <a class="btn small outline" href="#" target="_blank" rel="noreferrer noopener">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" tabindex="0" data-animate>
+                        <div class="project-thumb">
+                            <img loading="lazy" width="560" height="360" alt="Portfolio Website sample" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='360' viewBox='0 0 560 360'%3E%3Crect width='560' height='360' rx='20' fill='%239C27B0'/%3E%3Ctext x='50%25' y='52%25' dominant-baseline='middle' text-anchor='middle' font-size='24' font-family='Arial' fill='white'%3EPortfolio Website%3C/text%3E%3C/svg%3E" />
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>Modern, responsive portfolio website built with vanilla JavaScript, featuring smooth animations, dark/light theme toggle, and contact form integration.</p>
+                            <p class="stack">Stack: HTML5, CSS3, JavaScript, Node.js, Express.js</p>
+                            <div class="project-actions">
+                                <a class="btn small" href="#" data-project="gamma" aria-label="Open details for Portfolio Website">Details</a>
+                                <a class="btn small outline" href="#" target="_blank" rel="noreferrer noopener">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Project Modal -->
+            <dialog id="projectModal" class="modal" aria-labelledby="projectTitle" aria-describedby="projectDesc">
+                <form method="dialog" class="modal-inner">
+                    <button class="modal-close" aria-label="Close project details">×</button>
+                    <div class="modal-body">
+                        <img id="projectImage" src="" alt="Project image" />
+                        <div class="modal-content">
+                            <h3 id="projectTitle"></h3>
+                            <p id="projectDesc"></p>
+                            <ul id="projectFeatures" class="features" role="list"></ul>
+                            <div class="project-links">
+                                <a id="projectCode" class="btn small outline" target="_blank" rel="noreferrer noopener">Code</a>
+                                <a id="projectLive" class="btn small" target="_blank" rel="noreferrer noopener">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </dialog>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section alt" aria-label="Contact">
+            <div class="container">
+                <h2 class="section-title" data-animate>Contact</h2>
+                <div class="contact-grid">
+                    <form id="contactForm" class="contact-form" novalidate data-animate>
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+                            <span class="error" id="error-name" role="alert"></span>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+                            <span class="error" id="error-email" role="alert"></span>
+                        </div>
+                        <div class="field">
+                            <label for="subject">Subject</label>
+                            <input id="subject" name="subject" type="text" placeholder="How can I help?" required />
+                            <span class="error" id="error-subject" role="alert"></span>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                            <span class="error" id="error-message" role="alert"></span>
+                        </div>
+                        <button class="btn primary" type="submit">Send Message</button>
+                        <p class="form-status" aria-live="polite" id="formStatus"></p>
+                    </form>
+                                         <div class="contact-info" data-animate>
+                         <h3>Connect</h3>
+                         <p>Open to collaboration, opportunities, and interesting conversations.</p>
+                         <div class="contact-details">
+                             <div class="contact-item">
+                                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="contact-icon"><path d="M12 13.065 0 6V4l12 7 12-7v2l-12 7.065ZM0 8h24v12H0V8Z"/></svg>
+                                 <a href="mailto:tiwarisidharth0798@gmail.com" class="contact-link">tiwarisidharth0798@gmail.com</a>
+                             </div>
+                             <div class="contact-item">
+                                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="contact-icon"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                                 <a href="tel:+917007664429" class="contact-link">+91 7007664429</a>
+                             </div>
+                         </div>
+                         <ul class="socials" role="list">
+                             <li>
+                                 <a class="social" href="https://github.com/sidd0798" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                                     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.34-1.75-1.34-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.76-1.6-2.67-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.23-3.22-.12-.31-.53-1.56.12-3.25 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.69.25 2.94.12 3.25.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.61-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .5Z"/></svg>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a class="social" href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                                     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.55v-5.64c0-1.35-.02-3.09-1.88-3.09-1.88 0-2.17 1.47-2.17 2.99v5.74H9.29V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.37 4.28 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.57V9h3.55v11.45z"/></svg>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a class="social" href="mailto:tiwarisidharth0798@gmail.com" aria-label="Email">
+                                     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 13.065 0 6V4l12 7 12-7v2l-12 7.065ZM0 8h24v12H0V8Z"/></svg>
+                                 </a>
+                             </li>
+                         </ul>
+                     </div>
+                </div>
+            </div>
+                 </section>
+
+         <!-- Social Media Section -->
+         <section id="social-media" class="section" aria-label="Social Media">
+             <div class="container">
+                 <h2 class="section-title" data-animate>Connect With Me</h2>
+                 <div class="social-links" data-animate>
+                     <div class="social-item">
+                         <div class="social-icon">
+                             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                 <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                             </svg>
+                         </div>
+                         <div class="social-details">
+                             <h4>Instagram</h4>
+                             <p class="social-username">@twrsidd</p>
+                             <a href="https://instagram.com/twrsidd" target="_blank" rel="noopener noreferrer" class="social-link">Follow me on Instagram</a>
+                         </div>
+                     </div>
+                     
+                     <div class="social-item">
+                         <div class="social-icon">
+                             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                             </svg>
+                         </div>
+                         <div class="social-details">
+                             <h4>WhatsApp</h4>
+                             <p class="social-username">+91 7007664429</p>
+                             <a href="https://wa.me/917007664429" target="_blank" rel="noopener noreferrer" class="social-link">Chat on WhatsApp</a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <!-- Education Section -->
+         <section id="education" class="section" aria-label="Education">
+             <div class="container">
+                 <h2 class="section-title" data-animate>Education</h2>
+                 <div class="education-info" data-animate>
+                     <div class="education-card">
+                         <div class="education-logo">
+                             <img src="https://static.wikia.nocookie.net/logopedia/images/5/57/MGKVPLog.jpg/revision/latest?cb=20200404182200" alt="MGKVP Logo" width="60" height="60" />
+                         </div>
+                         <div class="education-details">
+                             <h4>Bachelor of Computer Application</h4>
+                             <p class="institution">Mahatma Gandhi Kashi Vidyapeeth University</p>
+                             <p class="location">Varanasi, Uttar Pradesh</p>
+                             <p class="year">Graduated 2019</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+     </main>
+
+     <!-- Footer -->
+    <footer class="site-footer" aria-label="Footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Sidharth Tripathi. All rights reserved.</p>
+            <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
+
+
